@@ -1,0 +1,207 @@
+
+h1 {
+    font-size: 50px;
+    margin-top: 0;
+    font-family:'Sofia Sans', sans-serif;
+    color:#0069A3;
+}
+.sub-heading {
+    font-size:20px;
+}
+body {
+    margin: 0;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+}
+.top-container {
+    background-color:whitesmoke;              
+    position:relative;
+    padding-top:140px;
+    height:461.5px;
+    width:100%;
+}
+.one {
+    height:250px;
+    width:240px;
+    position:absolute center;
+   
+}
+
+/*............. introduction and profile picture section ...........*/
+
+.intro-section {
+    height:550px;
+    width:100%;
+    background-color:#0069A3;
+    position:relative;
+}
+.card {
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    overflow:hidden;
+    border: 6px solid white;
+    position:absolute;
+    top:100px;
+    left:90px;
+}
+.card img {
+    height:100%;
+    width:100%;
+    filter: grayscale(1);
+    transition: 1s;
+}
+.card:hover img{
+    filter: none;
+    scale: 1.2;
+}
+.introduction {
+    width:600px;
+    position:absolute;
+    left:400px;
+    top:60px;
+    
+}
+.name {
+    color: white;
+    font-size:40px;
+    font-family:'Sofia Sans', sans-serif;
+    text-align: left;
+    line-height:2;
+}
+.intro {
+    color:white;
+    font-size:20px;
+    text-align: justify;
+}
+/*................. skill section .......*/
+.skill-section {
+    height: 600px;
+    background-color: whitesmoke;
+    width:100%;
+    position:relative;
+
+ }
+ .skill {
+    height:600px;
+    width:90%;
+    background-color:white;
+    border:1px;
+    border-radius:25px;
+    position:absolute;
+    bottom:100px;
+    left:5%;
+    box-shadow:0 6px 10px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+ }
+ .skill-icon {
+    height:80px;
+    width:80px;
+ }
+ .skill-text {
+    font-family:'Sofia Sans', sans-serif; 
+    font-size: 40px;
+    color: #0069A3;
+ }
+ .program {
+    font-size:20px;
+ }
+ .logo {
+    height:100px;
+    width:100px;
+ }
+ .table-one {
+    position:relative;
+    top:110px;
+ }
+ .table-two {
+    position:relative;
+    top:50px;
+    text-align: center;
+ }
+
+ /* ........ education information ......*/
+
+ .education-details {
+    height:1200px;
+    width:100%;
+    background-color:whitesmoke;
+    text-align:center;
+    position:relative;
+    padding-top:100px;
+ }
+ .edu {
+    margin-top:0;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    font-size:40px;
+    font-family:'Sofia Sans', sans-serif;
+    color:#0069A3;
+ }
+ .school1 {
+    float:left;
+    height:125px;
+    width:108px;
+    margin-right:30px;
+    margin-top:20px;
+ }
+ .school2 {
+    float:left;
+    height:105px;
+    width:105px;
+    margin-right:30px;
+    margin-top:20px;
+ }
+ .school3 {
+    float:left;
+    height:105px;
+    width:105px;
+    margin-right:30px;
+    margin-top:20px;
+ }
+.level {
+    text-align:left;
+    font-family:'Sofia Sans', sans-serif;
+    font-size:30px;
+    color:#0069A3;
+    font-style: bold;
+    line-height:1;
+}
+.box {
+    height:200px;
+    width:50%;
+    margin-left: 23%;
+    text-align: justify;
+    background-color: white;
+    border-radius: 25px;
+    padding:30px;
+    margin-bottom: 35px;
+    box-shadow:0 3px 5px 0 rgba(0,0,0,0.24), 0 4px 4px 0 rgba(0,0,0,0.19);
+}
+.text-para {
+    font-size:20px;
+}
+/*          about us  */
+.social-logo {
+    height:30px;
+    width:30px;
+    margin-right:10px;
+    
+}
+.contact {
+    height:300px;
+    width:100%;
+    background-color:#0A2647;
+}
+.us {
+    margin-top:0px;
+    padding-top:30px;
+    color:white;
+    font-size:16px;
+    line-height:10px;
+    line-height: 1;
+}
+.copy {
+    text-align:bottom;
+    color:white;
+    font-size:16px;
+}
